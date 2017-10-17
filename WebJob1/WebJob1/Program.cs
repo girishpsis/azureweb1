@@ -28,7 +28,7 @@ namespace WebJob1
                 string msg = message.GetBody<String>();
                Console.WriteLine(String.Format("Message body: {0}", msg));
                 //Console.WriteLine(String.Format("Message id: {0}", message.MessageId));
-                SendEmail(msg);
+                //SendEmail(msg);
             });
 
            
